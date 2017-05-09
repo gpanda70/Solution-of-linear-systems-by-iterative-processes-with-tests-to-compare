@@ -1,14 +1,6 @@
 # Solution-of-linear-systems-by-iterative-processes-with-tests-to-compare
 
-you will run code with compare.m 
-
-so try
-A=rand(50);
-A=A'*A + 1000*eye(50);
-b=rand(50,1);
-x=zeros(50,1);
-n=100
-compare(A,b,x,n)
+you will run code with compare.m, look at comments to see how to get parameters
 
 SPD_Mat.m This function converts a non-positive definite symmteric matrix into a positive-definite matrix
 
