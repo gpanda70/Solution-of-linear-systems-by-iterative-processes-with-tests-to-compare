@@ -7,10 +7,13 @@ function [ ] = compare( A,b,x,n )
 %and steepD methods.
 %n is number of iterations.
 
+%so to test use
 %A=rand(50);
 %A=A'*A + 1000*eye(50);
 %b=rand(50,1);
 %x=zeros(50,1);
+%n=100
+%compare(A,b,x,n)
 
 fprintf( 'Running all 3 methods with %d iterations stopping at error 1e-5\n', n )
 fprintf(['They will be tested with a random 50x50 matrix that' ...
